@@ -1,0 +1,393 @@
+/* GENERAL */
+/* Polices */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@font-face {
+	font-family:'DilemmaBlack';
+	src: url('../fonts/Dilemma-SansBlack.eot');
+	src: local('DilemmaBlack'),
+	url('../fonts/Dilemma-SansBlack.otf') format('opentype');
+}
+@font-face {
+	font-family:'DilemmaBold';
+	src: url('../fonts/Dilemma-SansBold.eot');
+	src: local('DilemmaBold'),
+	url('../fonts/Dilemma-SansBold.otf') format('opentype');
+}
+/* Effets, tailles et couleurs de Caractères */
+.capitales {text-transform:uppercase;}
+.blanc {color:#fff}
+a {color:#4458a3;}
+.auteur a, .encadre-droit a, #article a, .auteur-publications a {font-weight:bold;}
+a:hover, a:active {
+	color:#003f75;
+	text-decoration:none;
+}
+#article h2, #article h3, #content h2, #content h3, #auteur h2, #auteur h3 {color:#003f75;}
+#article h2, #content h2, #auteur h2 {
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:20px;
+	font-size:24px;
+}
+#article h3, , #content h3, , #auteur h3 {
+	font-size:20px;
+	margin:10px 0 15px;
+}
+#article .sociaux h3 {text-align:center;}
+/* Texte des articles*/
+.texte h3 {
+	text-align:center;
+}
+.texte h4 {
+	font-size:18px;
+}
+.texte h5, .texte h6 {
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+.texte h6 {
+	font-weight:bold;
+}
+.texte ul {
+	list-style-type: ">";
+	margin-left:1rem;
+}
+.texte ol {
+	margin-left:1rem;
+}
+.texte li {
+	padding-left:1rem;
+}
+.texte img {
+	margin:15px 0 0;
+	width:100%;
+}
+.references, .citation, .texte {
+	margin:15px 0 30px;
+}
+.references p, .citation p {margin:0;padding:0;border:0;}
+.numero {font-weight: bold;}
+.citation {
+	padding:10px;
+	border:3px solid #e2f3fc;
+	border-radius :5px;
+	background-color:#fff;
+}
+/*Paginations*/
+ul.pagination a {color:#4458a3;}
+ul.pagination a:hover, ul.pagination a:active {
+	color:#fff;
+	text-decoration:none;
+}
+ul.pagination .page-link {border: 1px solid #e2f3fc;padding: 0.5rem 0.6rem;}
+ul.pagination .page-link:hover {background-color:#003f75;}
+#pagination-auteur, #pagination-auteurs {float: right;}
+/* Fin PAGINATION*/
+.lireoutelecharger {text-align:center;}
+#article .sociaux {margin:0 100px 30px;}
+#lateral .sociaux {border-bottom: 30px;}
+h2, h3, h4, h5, h6 {font-family: Merriweather,'Times New Roman',Times,serif;}
+.bandeau-logo h1 {
+	font-family:DilemmaBlack,serif;
+	color:#003f75;
+	padding:10px;
+	background-color:rgba(255,255,255,0.5);
+	line-height:0.8em;
+	display:inline-block !important;
+}
+.presentation h2 {font-family: DilemmaBold;text-transform: uppercase;}
+footer h2 {font-size:20px;}
+.bandeau-logo img {
+	background-color:rgba(255,255,255,0.5);
+	padding:10px;
+	width:240px;
+}
+.bandeau-logo h1 span {	
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-weight:bold;
+}
+.contenu-encadre h2 {
+	padding:10px 20px;
+	text-align:center;
+	font-size:24px;
+}
+.contenu-encadre-auteur p.texte-auteur {
+	background-color: #fff;
+	border: 3px solid #e2f3fc;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: justify;
+}
+.contenu-encadre-auteur h2 {
+	font-size:24px;
+	color: #003f75;
+	padding-left: 13px;
+}
+.contenu-encadre-auteur p.descriptif-auteur {
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 13px;
+}
+.picture { margin-top: 30px;margin-left: 15px;}
+.contenu-encadre-auteur {margin-top: 10px;}
+.publications-auteur {margin-top: 15px;}
+.publications-auteur h3 {
+	color: #003f75;
+	font-size: 20px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.encadre-droit {font-size:14px;}
+.encadre-droit h2 {
+	font-size:20px!important;
+	margin: 10px!important;
+}
+.contenu-encadre h2.encadre-secondaire {font-size:20px;}
+.contenu-encadre p {font-size: 14px;text-align:justify;}
+.float-right {padding-right:0 !important;}
+.auteurs {
+	margin-bottom:1em;
+	font-size:14px;
+}
+.auteur {
+	margin:0;padding:0;
+}
+.invisible {display:none;}
+.appuye {font-size:18px;}
+.list-group-item {
+	background-color:transparent !important;
+	border:none !important;
+	padding:0 0 0.75rem 1rem !important;
+}
+.background-sombre .list-group-item:hover {background-color:#4458a3 !important;}
+.sociaux li i {
+	width:45px;
+	height:45px;
+	border:5px solid #4458a3;
+	border-radius:10px;
+	padding-top:3px;
+}
+footer {background-color:#4458a3;color:#fff;}
+footer a {color:#fff;}
+footer a:hover, footer a:visited, footer a:active {font-weight:bold;color:#fff;cursor: pointer;}
+/* Marges et tailles */
+.chapo {
+	margin:1rem 4rem 0;
+	text-align: justify;
+	font-size:16px;
+}
+.bandeau-logo.gauche {
+	text-align:left;
+}
+.bandeau-logo.droit {
+	text-align: right;
+}
+.bandeau-logo {margin:150px 20px 100px;}
+#accueil, #auteur {padding:30px 0 30px 15px;}
+.touslesnumeros, .margehaute {margin-top:30px;}
+.touslesnumeros {
+	margin-right:15px;
+}
+ul {
+	list-style-type:none;
+	text-align:left;
+}
+ol {text-align:left;}
+.sociaux li {padding:15px;}
+.presentation {
+	padding:20px;
+	text-align: justify;
+}
+.newsletter, .menubas {margin:20px;}
+.menubas li {margin:0 !important; padding:0!important;}
+/*Images et couleurs d'arrière-plan et de bordures*/
+body {
+	background:url('../imgs/arriere-plan-bandeau.jpg') top / contain no-repeat #f0f0f0;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+#auteur, #article, #content {background-color:#f0f0f0;}
+.bg-secondary {
+	background-color:#003f75 !important;
+	color:#fff;
+	border-radius:0;
+	text-transform: uppercase;
+	padding:3px 10px;
+	margin:0;
+}
+.badge.bg-skandal {
+	display:block;	
+	margin-right:15px;
+	float:right;
+	font-size:14px;
+	font-weight:600;
+}
+.encadre {
+	background-color:#fff;
+	border-top:10px solid #003f75;
+	border-left:3px solid #e2f3fc;
+	border-right:3px solid #e2f3fc;
+	border-bottom:3px solid #e2f3fc;
+	padding:0;
+	text-align:left;
+	margin-bottom:20px;
+}
+.encadre-droit {
+	background-color:#fff;
+	border:3px solid #e2f3fc;
+	border-radius: 10px;
+	padding:15px 15px 0 15px;
+	margin-right:15px;
+}
+.contenu-encadre {
+	padding: 10px 20px 0;
+}
+.background-sombre {
+	background-color:#003f75;
+}
+.background-sombre a, .background-sombre p, .background-sombre ul, .background-sombre h2 {
+	color:#fff!important;
+}
+#lateral {
+	margin:30px 0 0;
+	padding:0 15px 0 0;
+}
+#article .chapo {
+	border:3px solid #e2f3fc;
+	background-color:#fff;
+	padding:30px;
+	border-radius:10px;
+}
+/*Barre de navigation */
+#mainNav {
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight:bold;
+}
+.bg-light {
+	background-color: rgba(255,255,255,0.65) !important;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    transition: all .7s;
+}
+.bg-light.scrolled {
+	background-color: rgba(255,255,255,1) !important;
+	border-bottom: 2px solid #8cd3f6 !important;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    transition: all .7s;
+}
+.navbar-light .navbar-nav .nav-link {color:#4458a3;font-weight: bold;}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:active {
+	color:#003f75;
+	text-decoration:none;
+}
+.navbar-light .navbar-toggler {
+	border: 1px solid rgba(140, 211, 246,1)!important;
+	background-image: url('../imgs/icones/icone-toggler.svg');
+	opacity: 1;
+}
+.navbar-light .navbar-toggler i {color: #003f75!important;}
+/* Tableaux*/
+.texte table {border:1px solid #4458a3;}
+.texte table thead {background-color:#4458a3;}
+.texte table h3, .texte table h3 i {font-size:16px!important;font-style: italic;}
+.texte table thead h3 {color:#fff!important;}
+.texte table td {border:1px solid #4458a3;padding:4px;}
+.row_odd {background-color:#e2f3fc;}
+.row_even {background-color:#fff;}
+/* Formulaires */
+::placeholder {color:#4458a3 !important;font-style: italic;}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #4458a3 !important;
+  font-style: italic;
+  }
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #4458a3 !important;
+  font-style: italic;
+}
+/* Focus */
+*:focus::-webkit-input-placeholder { opacity: 0.25; } /* Chrome 56, Safari 9 */
+*:focus:-moz-placeholder { opacity: 0.25; } /* FF 4-18 */
+*:focus::-moz-placeholder { opacity: 0.25; } /* FF 19-50 */
+*:focus:-ms-input-placeholder { opacity: 0.25; } /* IE 10+ */
+*:focus::placeholder { opacity: 0.25; } /* Modern Browsers */
+/* Fin Focus*/
+input#Recherche, input#ChampRechercheHaut {
+	margin:10px 0;
+	background-color:#f0f0f0;
+	background-position: 98% 50%;
+	background-size:28px;
+	background-repeat:no-repeat;
+}
+input#Recherche {
+	background-image: url('../imgs/icone-loupe.png');
+}
+.btn-primary {
+	background-color:#4458a3 !important;
+	margin:0 !important;
+	border-color:none !important;
+}
+.form-group {margin-bottom:20px !important;}
+.newsletter button {padding-left:0;}
+.newsletter button i {padding:0 10px;}	
+.newsletter form {margin: 20px 0}
+.btn-light a:hover {color:#fff;}
+.btn-light:hover {background-color:#003f75!important;}
+
+[data-letters]:before {
+  content:attr(data-letters);
+  display:inline-block;
+  font-size:4em;
+  width:100%;
+  line-height:2em;
+  text-align:center;
+  border-radius:50%;
+  background-color:#921428;
+  vertical-align:middle;
+  margin-right:1em;
+  color:white;
+  }
+  /* MEDIA QUERIES*/
+  /* Menu adaptatif*/
+@media (max-width:1132px) {
+  	a.m-2 {padding-right:0!important;padding-left:0!important; }
+}
+@media(max-width:991px) {
+	.bandeau-logo.droit {display:none;}
+	.navbar-light .navbar-nav .nav-link {margin: 0!important;}
+	/* Disparition de l'encadré de recherche*/
+	.recherche {display: none;}
+}
+@media(min-width:992px) {
+	/* Disparition de la loupe de recherche dans le bandeau de menu*/
+	.navbar #rechercheHaut {display: none!important;}
+}
+/* Bandeau : Gestion du logo h1*/
+@media(max-width:1307px) {
+	.bandeau-logo.gauche h1 {font-size: 2.4rem;}
+}
+@media(max-width:1261px) {
+	.bandeau-logo.gauche h1 {font-size: 2.3rem;}
+}
+@media(max-width:1216px) {
+	.bandeau-logo.gauche h1 {font-size: 2.2rem;}
+}
+@media(max-width:1171px) {
+	.bandeau-logo.gauche h1 {font-size: 2.1rem;}
+}
+@media(max-width:1126px) {
+	.bandeau-logo.gauche h1 {font-size: 2rem;}
+}
+@media(max-width:1081px) {
+	.bandeau-logo.gauche h1 {font-size: 1.9rem;}
+}
+@media(max-width:1036px) {
+	.bandeau-logo.gauche h1 {font-size: 1.8rem;}
+}
+@media(max-width:700px) {
+	.bandeau-logo {margin-top: 85px;}
+}
+
+/* Bandeau : Image d'arrière plan*/
+	
